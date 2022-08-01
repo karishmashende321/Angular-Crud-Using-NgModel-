@@ -1,0 +1,63 @@
+<div class="container-fluid">
+    <br>
+    <div>
+      <h1 class="heading">Business News</h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-4  col-md-4 col-12 mt-3 mb-3" *ngFor="let dataApi of headingDisplayNews">
+  
+        <div class="box">
+          <img src="{{dataApi.urlToImage}}" width="100%" alt="">
+          <h3 class="mt-2 mb-2"><b>{{dataApi.title}}</b></h3>
+          <p>{{dataApi.content}}</p>
+          <a href="{{dataApi.url}}" class="btn btn-dark btn-sm">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    
+
+  <div class="container-fluid">
+    <div class="row row1">
+      <div class="col-lg-3 col-md-3 col-12 pd">
+        <h5 class="heading1">News</h5>
+        <br>
+        <P class="color">Get Started</P>
+        <p class="color">Documentation</p>
+        <p class="color">News Sources</p>
+        <p class="color">Pricing</p>
+        <p class="color">Google News</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-12 pd">
+        <H5 class="line">About Us</H5>
+        <br>
+        <P class="color">About Us</P>
+        <p class="color">Daily Update</p>
+        <p class="color">World News</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-12 pd">
+        <H5 class="heading1">Our Policies</H5>
+        <br>
+        <p class="color">Terms & Conditions</p>
+        <p class="color">FAQs & Help</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-3 pd">
+        <H5 class="heading1">Support</H5>
+        <br>
+        <P class="color">Contact </P>
+        <p class="color">Twitter</p>
+      </div>
+      <div class="container-fluid">
+        <div class="row row1">
+          <div class="col-lg-8 col-md-8 col-12 pd1">
+            <br>
+            <p style="color: white;">Help us in serving you better <a href="http://localhost:4200/contact">Give
+                Feedback</a>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

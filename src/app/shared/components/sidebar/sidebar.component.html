@@ -1,0 +1,47 @@
+<mat-nav-list>
+  <div class="profile-card">
+    <div class="header">
+      <h2>News</h2>
+      <h4>example@gmail.com</h4>
+    </div>
+    <img src="assets/logo.jpg" alt="">
+  </div>
+
+  <mat-divider></mat-divider>
+
+<h2 mat-subheader>Pages</h2>
+  <a mat-list-item routerLink="/home" routerLinkActive="list-item-active" >Home</a>
+  <a mat-list-item routerLink="/posts" routerLinkActive="list-item-active" >Posts</a>
+  <a mat-list-item routerLink="/news" routerLinkActive="list-item-active" >
+    News
+    <!-- <button mat-button [matMenuTriggerFor]="menu">News </button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>
+<mat-icon>settings</mat-icon>Settings
+  </button>
+
+  <button mat-menu-item>
+    <mat-icon>settings</mat-icon>profile
+      </button>
+
+      <button mat-menu-item>
+        <mat-icon>settings</mat-icon>logout
+          </button>
+
+</mat-menu> -->
+  </a>
+  <a mat-list-item routerLink="/contact" routerLinkActive="list-item-active" >Contact Us</a>
+  <a mat-list-item routerLink="/aboutus" routerLinkActive="list-item-active" >About Us</a>
+
+
+  <mat-divider></mat-divider>
+<h2 mat-subheader>Tools</h2>
+<a mat-list-item routerLink="/contacts" routerLinkActive="list-item-active" >
+    <mat-icon>import_contacts</mat-icon>
+    Contacts
+</a>
+<a mat-list-item routerLink="/contacts" routerLinkActive="list-item-active" >
+    <mat-icon>contact_phone</mat-icon>
+    Leads
+</a>
+</mat-nav-list>

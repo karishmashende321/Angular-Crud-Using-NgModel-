@@ -1,0 +1,71 @@
+.bg{
+    background-image: url("../../assets/background_image.jpg");
+    text-align: center;
+}
+
+.font{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+
+.font1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.contain{
+    background-color:rgb(166, 203, 250);
+}
+
+.card{
+    width:400px;
+    box-shadow: 0px 8px 16px 0px rgb(204, 201, 201);
+    position: -webkit-stick ;
+    position: sticky; top: 0;
+}
+
+.card-body{
+    background-color: #F1F8FF; 
+}
+
+.more{
+    padding-left: 100px;
+}
+
+.form-group{
+    margin-bottom: 4vh;
+}
+
+.color{
+    color: white;
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .pd{
+    padding-top: 60px; 
+    padding-left: 90px;
+  }
+
+  .heading1{
+    color: white;
+   font-size: 1.07rem;
+   line-height: 2px;
+  }
+  
+  .row1{
+    background-color: black;
+  }
+
+  .line{
+    color: white;
+    font-size: 1.07rem;
+    line-height: 2px;
+  }
+
+  .pd1{
+  padding-left: 100px;
+  }
